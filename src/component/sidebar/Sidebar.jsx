@@ -1,4 +1,5 @@
 import './sidebar.css';
+import { Link } from 'react-router-dom';
 import {Home,Timeline,TrendingUp,Report,DynamicFeedOutlined,EmailOutlined,AddBoxOutlined,MessageOutlined,FeedbackOutlined,PersonAddAlt1Outlined,Inventory2Outlined,AssessmentOutlined,PaidOutlined} from '@mui/icons-material';
 function sidebar() {
   return <div className='sidebar'>
@@ -6,10 +7,12 @@ function sidebar() {
       <div className="sidebarMenu">
         <h3 className="sidebarTitle">Dashbord</h3>
         <ul className="sidebarList">
+        <Link to={'/'} className='link'>
           <li className="sidebarListItem active">
             <Home className='sidebarIcon'/>
             Home
           </li>
+        </Link> 
           <li className="sidebarListItem">
             <Timeline className='sidebarIcon'/>
             Analytics
@@ -23,14 +26,18 @@ function sidebar() {
       <div className="sidebarMenu">
         <h3 className="sidebarTitle">Quick Menu</h3>
         <ul className="sidebarList">
+          <Link to={'/users'} className='link'>
           <li className="sidebarListItem">
             <PersonAddAlt1Outlined className='sidebarIcon'/>
             Users
           </li>
+          </Link>
+         <Link to="/products" className='link'>
           <li className="sidebarListItem">
             <Inventory2Outlined className='sidebarIcon'/>
             Products
           </li>
+         </Link>
           <li className="sidebarListItem">
             <PaidOutlined className='sidebarIcon'/>
             Transactions

@@ -49,6 +49,25 @@ export const userData = [
   },
 ];
 
+export const productData = [
+  {
+    name: "Jan",
+    Sales: 4000,
+  },
+  {
+    name: "Feb",
+    Sales: 5000,
+  },
+  {
+    name: "Mar",
+    Sales: 3000,
+  },
+  {
+    name: "Apr",
+    Sales: 3500,
+  },
+];
+
 export const userRows = [
   {
     id: 1,
@@ -130,5 +149,80 @@ export const userRows = [
     email: "Harvey@gmail.com",
     status: "active",
     transaction: "$12.00",
+  },
+];
+
+export const productRows = [
+  {
+    id: 1,
+    name: "Apple Ipod",
+    img: "https://images.pexels.com/photos/164827/pexels-photo-164827.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    stock: 74,
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 2,
+    name: "Nike Sneakers",
+    img: "https://images.pexels.com/photos/4273288/pexels-photo-4273288.jpeg?cs=srgb&dl=pexels-erik-mclean-4273288.jpg&fm=jpg",
+    stock: 51,
+    status: "active",
+    price: "$150.00",
+  },
+  {
+    id: 3,
+    name: "Expensive Bag",
+    img: "https://images.pexels.com/photos/7319324/pexels-photo-7319324.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    stock: 100,
+    status: "active",
+    price: "$3200.00",
+  },
+  {
+    id: 4,
+    name: "Cheap Sock",
+    img: "https://images.pexels.com/photos/4495753/pexels-photo-4495753.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    stock: 12,
+    status: "active",
+    price: "$1.00",
+  },
+  {
+    id: 5,
+    name: "Good Movie",
+    img: "https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/SuspiriaItaly.jpg/220px-SuspiriaItaly.jpg",
+    stock: 53,
+    status: "active",
+    price: "$60.00",
+  },
+  {
+    id: 6,
+    name: "Matcha Tea",
+    img: "https://images.pexels.com/photos/7144915/pexels-photo-7144915.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    stock: 205,
+    status: "active",
+    price: "$524.00",
+  },
+  {
+    id: 7,
+    name: "HeadPhone",
+    img: "https://images.pexels.com/photos/815494/pexels-photo-815494.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    stock: 60,
+    status: "active",
+    price: "$373.00",
+  },
+  {
+    id: 8,
+    name: "Laptop",
+    img: "https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    stock: 80,
+    status: "active",
+    price: "$805.00",
+  },
+  {
+    id: 9,
+    name: "Lighter",
+    img: "https://images.pexels.com/photos/78778/fire-lighter-the-flame-firefox-78778.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    stock: 10,
+    status: "active",
+    price: "$5.00",
   },
 ];
